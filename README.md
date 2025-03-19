@@ -6,7 +6,7 @@ This is a Next.js template which can be deployed to [DigitalOcean](https://www.d
 ### App Platform
 This template can be used to deploy your Next.js application as a Docker container to [DigitalOcean App Platform](https://www.digitalocean.com/products/app-platform). 
 
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/nextjs/deploy-digitalocean/tree/main)
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=[https://github.com/nextjs/deploy-digitalocean/tree/main)
 
 To modify the app, create your own repository. You can deploy an app using using [UI/CLI/API](https://docs.digitalocean.com/products/app-platform/how-to/create-apps/), [Github Actions](https://docs.digitalocean.com/products/app-platform/how-to/deploy-from-github-actions/), or [Terraform](https://registry.terraform.io/providers/digitalocean/digitalocean/latest/docs/resources/app).
 
