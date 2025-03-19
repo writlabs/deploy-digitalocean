@@ -1,5 +1,19 @@
 FROM node:lts-alpine AS base
 
+
+# Set the build-time environment variables
+ARG is_dev
+ARG SUB_domain
+ARG database
+ARG password
+
+# Set environment variables from args
+ENV is_dev=$is_dev
+ENV SUB_domain=$SUB_domain
+ENV database=$database
+ENV password=$password
+
+
 # Stage 1: Install dependencies
 FROM base AS deps
 WORKDIR /app
